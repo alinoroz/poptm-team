@@ -1,6 +1,6 @@
 # [Pop-tm](https://telegram.me/pop_Channel)
 
-**An advanced and powerful administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot) licensed under the [GNU General Public License](https://github.com/hafez16/mega-shield/blob/supergroups/LICENSE)**.
+**An advanced and powerful administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot) licensed under the [GNU General Public License](https://github.com/alinoroz/poptm-team/blob/supergroups/LICENSE)**.
 
 | Command | Description |
 |:--------|:------------|
