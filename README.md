@@ -1,4 +1,4 @@
-# [MeGa shield](https://telegram.me/AntiSpam_shield)
+# [Pop-tm](https://telegram.me/pop_Channel)
 
 **An advanced and powerful administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot) licensed under the [GNU General Public License](https://github.com/hafez16/mega-shield/blob/supergroups/LICENSE)**.
 
@@ -12,7 +12,7 @@
 * * *
 
 ## Commands
-MeGa-shield has several commands that are only usable at certain ranks.
+pop-tm has several commands that are only usable at certain ranks.
 
 
 ## General Commands
@@ -152,7 +152,7 @@ MeGa-shield has several commands that are only usable at certain ranks.
 |:--------|:--------|:-------------|---------|
 | [#!/]addadmin [id<html>&#124;</html>username] | Set a user as bot admin. | Y | Y | Y |
 | [#!/]removeadmin [id<html>&#124;</html>username] | Remove a user from bot admin. | Y | Y | Y |
-| [#!/]sync_gbans | Sync your GBans with official @TeleSeed | Y | Y | Y |
+| [#!/]sync_gbans | Sync your GBans with official @bot_s_u_d_o | Y | Y | Y |
 
 
 ## Settings 
@@ -221,8 +221,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/hafez16/mega-shield.git
-cd mega-shield
+git clone https://github.com/alinoroz/poptm-team.git
+cd poptm-team
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
@@ -231,7 +231,7 @@ chmod +x launch.sh
 To install everything in one command (useful for VPS deployment) on Debian-based distros, use:
 ```sh
 #https://github.com/yagop/telegram-bot/wiki/Installation
-sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/hafez16/Tmega-shield.git && cd mega-shield && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/alinoroz/poptm-team.git && cd poptm-team && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 
 * * *
@@ -243,11 +243,9 @@ After you run the bot for first time, send it `!id`. Get your ID and stop the bo
 Open ./data/config.lua and add your ID to the "sudo_users" section in the following format:
 ```
   sudo_users = {
-    110626080,
-    103649648,
-    111020322,
-    0,
-    YourID
+    199498852,
+    131232407,
+    213916168
   }
 ```
 Then restart the bot.
@@ -268,9 +266,6 @@ Create a realm using the `!createrealm` command.
 
 # Support and development
 
-Check out this [tutorial by Telegram Geeks](http://telegramgeeks.com/2016/01/teleseed-tutorial/) for further assistance with setup and installation.
+Check out this [tutorial by Telegram Geeks](http://telegramgeeks.com/2016/01/pop-tm/) for further assistance with setup and installation.
 
-[hafez (developer)](https://telegram.me/hafez1116hafez)
-[amir hosein (developer)](https://telegram.me/amirho3ien911)
-[mostafa (manager)](https://telegram.me/Eblis_alone)
-[mohammad (sponsor)](https://telegram.me/Mmd_hei)
+[alinorozani (developer)](https://telegram.me/bot_s_u_d_o)
